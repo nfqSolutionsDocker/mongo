@@ -79,4 +79,4 @@ VOLUME /data/db /data/configdb
 #ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 27017
-CMD ["/usr/bin/mongod --auth"]
+CMD ["/usr/bin/mongod", "--auth"]
